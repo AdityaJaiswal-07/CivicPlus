@@ -1,0 +1,192 @@
+.login-page {
+  min-height: calc(100vh - 68px);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 50px 20px;
+
+  background: #f6faf8;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 440px;
+
+  padding: 38px;
+
+  background: #ffffff;
+
+  border: 1px solid #e1e5e3;
+  border-radius: 14px;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-logo {
+  width: 52px;
+  height: 52px;
+
+  margin: 0 auto 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  background: #08775e;
+  color: white;
+
+  font-size: 24px;
+}
+
+.login-header h1 {
+  font-size: 25px;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.login-header p {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: #374151;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input-wrapper {
+  height: 46px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 0 13px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 7px;
+
+  background: white;
+}
+
+.input-wrapper svg {
+  color: #7a8581;
+  font-size: 14px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  height: 100%;
+
+  border: none;
+  outline: none;
+
+  font-size: 14px;
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 5px 0 22px;
+
+  font-size: 13px;
+}
+
+.login-options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  color: #555;
+}
+
+.forgot-password {
+  border: none;
+  background: none;
+
+  color: #08775e;
+
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.login-button {
+  width: 100%;
+
+  height: 46px;
+
+  border: none;
+  border-radius: 7px;
+
+  background: #08775e;
+  color: white;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background: #06654f;
+}
+
+.register-text {
+  margin-top: 22px;
+
+  text-align: center;
+
+  font-size: 14px;
+  color: #666;
+}
+
+.register-text a {
+  color: #08775e;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-home {
+  display: block;
+
+  margin-top: 25px;
+
+  text-align: center;
+
+  color: #555;
+
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.login-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.forgot-password:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

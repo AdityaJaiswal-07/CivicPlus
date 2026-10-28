@@ -1,0 +1,21 @@
+
+.role-section {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  padding: 40px;
+  background: #f8fafc;
+}
+
+@media (max-width: 900px) {
+  .role-section {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .role-section {
+    grid-template-columns: 1fr;
+    padding: 24px 16px;
+  }
+}

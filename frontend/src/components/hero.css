@@ -1,0 +1,43 @@
+.hero {
+  width: 100%;
+  min-height: 340px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-color: #f8fafc;
+
+  padding: 60px 20px;
+}
+
+.hero-content {
+  max-width: 850px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  color: #111827;
+
+  margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+  color: #16a34a;
+}
+
+.hero-content p {
+  max-width: 700px;
+
+  margin: 0 auto;
+
+  font-size: 17px;
+  line-height: 1.7;
+
+  color: #6b7280;
+}
